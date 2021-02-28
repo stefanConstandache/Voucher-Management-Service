@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="com.company.AdministrateCampaigns">
+  <grid id="27dc6" binding="AdministrateCampaignsPanel" layout-manager="GridLayoutManager" row-count="6" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="792" height="494"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="f7cbe" class="javax.swing.JButton" binding="displayCampaignsButton" default-binding="true">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="500" height="-1"/>
+            <preferred-size width="500" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Display Campaigns"/>
+        </properties>
+      </component>
+      <component id="791b6" class="javax.swing.JButton" binding="exitButton">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="-1"/>
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Exit"/>
+        </properties>
+      </component>
+      <component id="5c394" class="javax.swing.JTextField" binding="campaignIDTextField" default-binding="true">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="100" height="-1"/>
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="//Campaign ID"/>
+        </properties>
+      </component>
+      <component id="bbe65" class="javax.swing.JButton" binding="campaignDetailsButton" default-binding="true">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Campaign Details"/>
+        </properties>
+      </component>
+      <component id="45efb" class="javax.swing.JLabel" binding="userName">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="userName"/>
+        </properties>
+      </component>
+      <component id="b1510" class="javax.swing.JButton" binding="closeCampaignButton">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Close Campaign"/>
+        </properties>
+      </component>
+      <component id="33d25" class="javax.swing.JButton" binding="editButton" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="EditCampaign"/>
+        </properties>
+      </component>
+      <component id="4bcf" class="javax.swing.JTextField" binding="cancelCampaignField">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="500" height="-1"/>
+            <preferred-size width="500" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="//Close Campaign Format: ID"/>
+        </properties>
+      </component>
+      <component id="fe568" class="javax.swing.JTextField" binding="editCampaignField">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="520" height="-1"/>
+            <preferred-size width="520" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="//Edit Campaign Format :  ID;Name;Description;StratDate;EndDate;nrVouchers"/>
+        </properties>
+      </component>
+      <component id="1c40e" class="javax.swing.JTextField" binding="addCampaignField">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <minimum-size width="520" height="-1"/>
+            <preferred-size width="500" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="//Add Campaign Format :  ID;Name;Description;StratDate;EndDate;nrVouchers;CampaignType"/>
+        </properties>
+      </component>
+      <component id="52a5" class="javax.swing.JButton" binding="addButton" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add Campaign"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
